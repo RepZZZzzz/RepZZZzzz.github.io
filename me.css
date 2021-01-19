@@ -1,0 +1,909 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.logo img{
+	width: 70px;
+}
+.logo{
+	margin-left: 5%;
+	margin-top: 0.5%;
+}
+.text span{
+	font-size: 25px;
+	font-family: Sans;
+	font-weight: 100;
+	cursor: default;
+}
+
+.krug{
+	margin-top: -70%;
+	margin-left: 37%;
+	background-color: white;
+	width: 5px; 
+	height: 5px; 
+	border: 2px solid black; 
+	border-radius: 100%; 
+	padding-right: 0; 
+	margin-right: 0;
+}
+
+.krug2{
+	margin-left: 42%;
+	background-color: white;
+	width: 5px; 
+	height: 5px; 
+	border: 2px solid #edeff2; 
+	border-radius: 100%; 
+	padding-right: 0; 
+	margin-right: 0;
+}
+
+.progress_bar{
+	height: 5px;
+	width: 37%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 30.5%
+}
+
+.progress{
+	width: 30%;
+	height: 3px;
+	background-color: #edeff2;
+}
+
+.progress2{
+	background-color: black;
+	margin-top: -95%;
+	margin-left: 130%;
+	width: 630%;
+}
+.header{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_text{
+	width: 57%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.header_tablet{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.logo_t{
+	margin-top: 1%;
+}
+
+.progress_bar_t{
+	width: 64%;
+	margin-left: 18.5%
+}
+
+.header_text_t{
+	width: 35%;
+}
+
+footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 130px;
+	background-color: #edeff2;
+}
+.footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 200px;
+	background-color: #edeff2;
+	display: none;
+}
+
+.label2{
+	width: 60%;
+	padding-top: 3%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.label2 img{
+	width:30%;
+	height: 36px;
+}
+
+.label{
+	width: 70%;
+	padding-top: 3%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.label img{
+	width:15%;
+	height: 46px;
+}
+
+.inf{
+	margin: 1% auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.inf span{
+	color:#153a33;
+	font-family: Arial;
+}
+a{
+	text-decoration: none;
+	color:#153a33;
+	font-family: Arial;
+}
+.content{
+	margin-top: 5%;
+	width: 75%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.grechka img{
+	width: 130%;
+}
+.grechka{
+	width: 30%;
+}
+.cont{
+	margin: 3% auto;
+	margin-left: 20%;
+	display: flex;
+	flex-direction: column;
+}
+.cont h1{
+	margin-left: 5%;
+	align-items: center;
+	color: #153a33;
+	font-family: Arial;
+	font-size: 40px;
+}
+
+.cont span{
+	width: 120%;
+	display: block;
+	color: #153a33;
+	font-family: Arial;
+	align-items: center;
+}
+
+.data{
+	margin-top: 10%;
+	width: 120%;
+	display: flex;
+}
+.data span{
+	width: 20%;
+	color: #153a33;
+	font-size: 220%;
+	font-family: Arial;
+	font-weight: 100;
+	display: inline;
+}
+
+input{
+	display: inline;
+	border: none;
+	border-bottom: 2px dotted #f2674b;
+	font-family: Arial;
+	width: 50px;
+	color: #f2674b;
+	font-size: 30px;
+	height: 30px;
+	margin: 0 10px;
+	outline:none;
+	padding-left: 30px;
+}
+
+.name_dog{
+	width: 20%
+}
+
+.kolvo1{
+	width: 50%;
+}
+.kolvo2{
+	width: 60%;
+	display: none;
+}
+
+.zip{
+	margin-top: 10%;
+	width: 90%;
+	display: flex;
+	margin-left: 10%;
+}
+.zip span{
+	width: 60%;
+	color: #153a33;
+	font-size: 220%;
+	font-family: Arial;
+	font-weight: 100;
+	display: inline;
+}
+.name span{
+	width: 55%;
+}
+.name input{
+	width: 25%;
+}
+.email{
+	margin-left: -2%;
+	width: 90%;
+}
+.email span{
+	width: 70%;
+}
+.email input{
+	width: 40%;
+}
+.email_text{
+	margin-left: 3%;
+}
+.email_text span{
+	color: #969799;
+	font-family: Arial;
+}
+select{
+	border: none;
+	border-bottom: 2px dotted #f2674b;
+	font-family: Arial;
+	width: 250px;
+	color: #f2674b;
+	font-size: 30px;
+	height: 30px;
+	margin: 0 10px;
+	outline:none;
+}
+.selectw span{
+	width: 5%;
+}
+.selectw{
+	margin-left: -2%;
+	width: 100%;
+}
+#fresh{
+	display: block;
+	width: 45%;
+}
+
+.dogsNN span{
+	width: 100%;
+	margin-top: -10%;
+	margin-left: -10%;
+}
+header{
+	display: block;
+	}
+.header_tablet{
+	display: none;
+	}
+.continue{
+	margin-left: 165px;
+	margin-top: 30px;
+	width: 110px;
+	height: 50px;
+	background-color: #f2674b;
+	border: solid 1px #f5502f;
+	border-radius: 5px;
+	color:white;
+	font-family: Arial;
+	font-weight: 900;
+}
+
+.continue:hover{
+	margin-left: 160px;
+	width: 115px;
+	height: 55px;
+	background-color: #f5502f;
+	border: solid 1px #f5502f;
+}
+
+
+.zag{
+	margin-left: -5%;
+}
+.block1{
+	width: 70%;
+	height: 150px;
+	margin: 3% auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.block_border{
+	width: 30%;
+	height: 100%;
+	border: 1px solid #edeff2;
+}
+.block_border img{
+	width: 25%;
+	display: block;
+	margin: -13% auto;
+}
+.block_border span{
+	display: block;
+	margin-top: 15%;
+	font-family: Arial;
+	font-weight: 900;
+	color: #969799;
+	text-align: center;
+}
+#block_text{
+	font-weight: 100;
+	margin-top: 0;
+}
+@media(max-width: 1025px) and (min-width: 770px ){
+	.grechka img{
+	width: 180%;
+}
+	header{
+		display: block;
+	}
+	.header_tablet{
+		display: none;
+	}
+	.email{
+	width: 110%;
+}
+	.content h1{
+		margin-left: 0;
+	}
+	.zag{
+		margin-left: -5%;
+	}
+	.zip span{
+	width: 70%;
+	}
+	.name span{
+		width: 55%;
+	}
+	.selectw span{
+		width: 5%;
+	}
+	.selectw{
+	margin-left: -5%;
+	width: 120%;
+}
+	.grechka{
+		width: 30%;
+	}
+	.data{
+		width: 140%;
+	}
+	.dogsNN{
+		width: 100%;
+	}
+	.dogsNN span{
+		width: 140%;
+		margin-top: -10%;
+		margin-left: -15%;
+	}
+	.continue{
+		margin-left: 145px;
+	}
+}
+@media(max-width: 769px) and (min-width: 427px ){
+	.grechka img{
+	display: none;
+	}
+	.cont{
+		display: block;
+	}
+	.data{
+		display: flex;
+		margin-top: 10%;
+		width: 105%;
+		margin-left: 5%;
+	}
+	.content{
+		margin-top: 5%;
+		width: 90%;
+		display: block;
+	}
+	.cont span{
+		width: 100%;
+		color: #153a33;
+		font-family: Arial;
+		align-items: center;
+	}
+	.zip span{
+		width: 55%;
+	}
+	.name span{
+	width: 45%;
+	}	
+	.selectw span{
+		width: 5%;
+	}
+	.krug2{
+	border: 2px solid black; 
+	}
+	.footer{
+		display: block;
+	}
+	.inf{
+	margin: 1% auto;
+	width: 47%;
+	display: flex;
+	justify-content: space-around;
+	}
+
+	footer{
+		display: none;
+	}
+	.header_tablet{
+	display: block;
+	}
+    header{
+	display: none;
+}
+	.dogsNN{
+		width: 100%;
+	}
+	.dogsNN span{
+		width: 140%;
+		margin-top: -10%;
+		margin-left: -8%;
+	}
+	.block1{
+		display: none;
+	}
+	.block2{
+		display: block;
+	}
+	.continue{
+		margin-left: 190px;
+	}
+}
+
+@media(max-width: 426px) and (min-width: 377px ){
+	.grechka img{
+		display: none;
+	}
+	.email_text{
+		margin-left: -25%;
+		text-align: center;
+	}
+	.content h1{
+		margin-left: 5%;
+	}
+	.zag{
+		margin-left: -7%;
+	}
+	select{
+		width: 100px;
+	}
+	.kolvo1{
+	width: 100%;
+	display: block;
+	}
+	.kolvo2{
+		width: 70%;
+		display: none;
+	}
+	.cont{
+		display: block;
+	}
+	.have{
+		width: 80%;
+	}
+	.data{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		width: 93%;
+		margin-left: -9%;
+
+	}
+	#named{
+		margin-left: -2%;
+	}
+	.content{
+		margin-top: 15%;
+		width: 100%;
+		display: block;
+	}
+	.cont span{
+		width: 100%;
+		color: #153a33;
+		font-family: Arial;
+		align-items: center;
+	}
+
+	.footer{
+		display: block;
+	}
+	.label2 img{
+	width:40%;
+	height: 36px;
+	}
+	.inf{
+	margin: 1% auto;
+	width: 77%;
+	display: flex;
+	justify-content: space-around;
+	}
+
+	footer{
+		display: none;
+	}
+	.header_tablet{
+	display: block;
+	}
+    header{
+	display: none;
+	}
+	.zip span{
+		width: 90%;
+		margin-left: -30%;
+	}
+	.zip{
+		width: 70%;
+	}
+	.name span{
+		width: 80%;
+	}
+	.selectw span{
+	width: 5%;
+	}
+	.selectw{
+	margin-left: 5%;
+	width: 90%;
+	}
+	#fresh{
+		display: block;
+		margin-left: 6%;
+		width:75%;
+	}
+	.krug2{
+		margin-top: -15%;
+	}
+	.logo img{
+		width: 60px;
+		margin-bottom: 4%;
+	}
+	.logo_t{
+		margin-top: 3.7%;
+	}
+	.header_text_t{
+	width: 43%;
+	}	
+	.dogsNN{
+		width: 80%;
+	}
+	.dogsNN span{
+		width: 100%;
+		margin-top: -10%;
+		margin-left: -40%;
+	}
+	.email{
+		width: 80%;
+		margin-left: 0;
+	}
+	.email input{
+		width: 85%;
+		margin-left: 10%;
+	}
+	.continue{
+	margin-left: 60px;
+	}
+	.block1{
+		display: none;
+	}
+	.block2{
+		display: block;
+	}
+}
+
+@media(max-width: 376px) and (min-width: 322px ){
+	.grechka img{
+		display: none;
+	}
+	header{
+		display: none;
+	}
+	.header_tablet{
+		display: block;
+	}
+	.zag{
+		margin-left: -7%;
+	}
+	.content h1{
+		margin-left: -3%;
+	}
+	select{
+		width: 100px;
+	}
+	#named{
+		margin-left: -10%
+	}
+	.kolvo1{
+	width: 100%;
+	display: block;
+	}
+	.kolvo2{
+		width: 70%;
+		display: none;
+	}
+	.kolvo2 input{
+		margin-left: 10%;
+	}
+	.cont{
+		display: block;
+	}
+	.have{
+		width: 80%;
+	}
+	.data{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		width: 93%;
+		margin-left: -9%;
+
+	}
+	.content{
+		margin-top: 15%;
+		width: 100%;
+		display: block;
+	}
+	.cont span{
+		width: 100%;
+		color: #153a33;
+		font-family: Arial;
+		align-items: center;
+	}
+	.zip span{
+		width: 90%;
+		margin-left: -30%;
+		font-size: 200%;
+	}
+	.zip{
+		width: 70%;
+	}
+	.name span{
+	width: 75%;
+	}
+	.footer{
+		display: block;
+	}
+	.label2 img{
+	width:45%;
+	height: 36px;
+	}
+	.selectw{
+		margin-left: 7%;
+	}
+	.selectw span{
+		width: 2%;
+	}
+	#fresh{
+		display: block;
+		margin-left: 6%;
+		width:75%;
+	}
+	.inf{
+	margin: 1% auto;
+	width: 87%;
+	display: flex;
+	justify-content: space-around;
+	}
+
+	footer{
+		display: none;
+	}
+	.krug2{
+		margin-top: -1%;
+	}
+	.logo img{
+		width: 60px;
+		margin-bottom: 7%;
+	}
+	.logo_t{
+		margin-top: 3.7%;
+	}
+	.header_text_t{
+	width: 43%;
+	}	
+	.header_text_t{
+	width: 43%;
+	}	
+	.dogsNN{
+		width: 80%;
+	}
+	.dogsNN span{
+		width: 100%;
+		margin-top: -10%;
+		margin-left: -30%;
+	}
+	.email{
+		margin-left: 5%;
+	}
+	.email_text{
+		text-align: center;
+		margin-left: -30%;
+	}
+	.continue{
+	margin-left: 50px;
+	}
+	.block1{
+		display: none;
+	}
+	.block2{
+		display: block;
+	}
+}
+@media(max-width: 321px){
+	.data span{
+		font-size: 150%;
+	}
+	#named{
+		margin-left: -10%;
+	}
+	.grechka img{
+		display: none;
+	}
+	select{
+		width: 100px;
+	}
+	.kolvo1{
+	width: 90%;
+	display: block;
+	}
+	.kolvo2{
+		width: 80%;
+		display: none;
+		margin-left: -5%;
+	}
+	.kolvo2 input{
+		margin-left: 0;
+	}
+	.cont{
+		display: block;
+		margin-left: 10%;
+	}
+	.have{
+		width: 80%;
+	}
+	.data{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		width: 93%;
+		margin-left: 5%;
+
+	}
+	.content{
+		margin-top: 10%;
+		width: 100%;
+		display: block;
+	}
+	.cont span{
+		width: 100%;
+		color: #153a33;
+		font-family: Arial;
+		align-items: center;
+	}
+	.zip{
+		width: 70%;
+	}
+	.zip span{
+		width: 70%;
+		font-size: 150%;
+		margin-left: -20%;
+	}
+	.name span{
+	width: 65%;
+}
+	.selectw{
+		margin-left: 10%;
+	}
+	.selectw span{
+	width: 2%;
+	}
+	#fresh{
+		display: block;
+		margin-left: 6%;
+		width:75%;
+	}
+	.footer{
+		display: block;
+	}
+	.label2 img{
+	width:45%;
+	height: 36px;
+}
+	.inf{
+	margin: 1% auto;
+	width: 87%;
+	display: flex;
+	justify-content: space-around;
+	}
+
+	footer{
+		display: none;
+	}
+		.header_tablet{
+	display: block;
+}
+    header{
+	display: none;
+}
+	.krug2{
+		margin-top: -1%;
+	}
+	.logo img{
+		width: 50px;
+		margin-bottom: 13%;
+	}
+	.logo_t{
+		margin-top: 7.7%;
+	}
+	.header_text_t{
+	width: 43%;
+	}	
+	.progress2{
+	width: 130%;
+}
+	.dogsNN{
+		width: 80%;
+	}
+	.dogsNN span{
+		width: 100%;
+		margin-top: -10%;
+		margin-left: -18%;
+	}
+	.email{
+		width: 70%;
+		margin-left: 10%;
+	}
+	.email input{
+		width: 85%;
+		margin-left: 10%;
+	}
+	.email span{
+		width: 100%;
+	}
+	.email_text{
+		text-align: center;
+		margin-left: -15%;
+	}
+	.continue{
+	margin-left: 70px;
+	}
+	.block1{
+		display: none;
+	}
+	.block2{
+		display: block;
+	}
+}
