@@ -1,0 +1,953 @@
+span{
+	font-family: Arial;
+}
+.zag_cont1{
+	width: 100%;
+	text-align: center;
+}
+.cont_text1{
+	font-family: Arial;
+	font-size: 27px;
+	color: #153a33;
+}
+.dogname{
+	font-family: Arial;
+	font-weight: 900;
+	color: black;
+	font-size: 27px;
+}
+input{
+	display: inline;
+	border: none;
+	border-bottom: 2px dotted #f2674b;
+	font-family: Arial;
+	width: 50px;
+	color: #f2674b;
+	font-size: 20px;
+	height: 25px;
+	margin: -20px 10px;
+	outline:none;
+	text-align: center;
+}
+
+input::placeholder{
+	text-align: center;
+}
+select{
+	border: none;
+	border-bottom: 2px dotted #f2674b;
+	background-color: white;
+	font-family: Arial;
+	width: 80px;
+	color: #f2674b;
+	font-size: 20px;
+	height: 30px;
+	margin: 0 10px;
+	outline:none;
+	text-align: center;
+}
+
+.selectw1 span{
+	font-family: Arial;
+	width: 5%;
+	font-size: 27px;
+	margin-right: 10px;
+}
+.selectw1{
+	text-align: center;
+	margin: 50px auto;
+	width: 100%;
+}
+.selectw1 select{
+	margin-right: 10px;
+	text-align: center;
+}
+
+.date1{
+	width: 130px;
+}
+.selectw1 input{
+	margin-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding: 0px auto;
+}
+.we1{
+	width: 100%;
+}
+.poroda1{
+	width: 100%;
+	text-align: center;
+}
+.poroda1 input{
+	width: 140px;
+	margin-left: 5px;
+}
+.poroda1 select{
+	width: 140px;
+	margin-left: 5px;
+}
+.poroda1 span{
+	margin-right: 5px;
+}
+.body_zag1{
+	margin-top: 100px;
+	font-size: 25px;
+	text-align: center;
+}
+.radio_breed1 {
+	width: 90%;
+	margin-top: 70px;
+	margin-left: 120px;
+	display: flex;
+	justify-content: space-between;
+}
+.radio_breed1 img{
+	width: 70%;
+}
+.radio_breed1 label{
+	display: flex;
+	flex-direction: column;
+}
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid rgba(0,0,0,0.2);
+} 
+.radio_breed425 {
+	width: 100%;
+	margin-top: 70px;
+	margin-left: 30px;
+	display: none;
+}
+.radio_breed425 img{
+	margin-right: 4%;
+	width: 80%;
+}
+.radio_breed425 label{
+	display: flex;
+	flex-direction: column;
+}
+.qwe1{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.label_div1{
+	background-color: white;
+	width: 5px; 
+	height: 5px; 
+	border: 2px solid rgba(0,0,0,0.2); 
+	border-radius: 100%; 
+	margin: 0 auto;
+	margin-right: 0px;
+}
+.activ1{
+	margin: 30px auto;
+	margin-bottom: 0px;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+}
+
+.act1{
+	width: 10px;
+	height: 7px;
+	cursor: pointer;
+}
+.act1:hover{
+	background-color: #f2674b;
+	border-color: #f2674b;
+}
+.line1{
+	width: 60%;
+	margin-top: 2.5px;
+	height: 3px;
+	background-color: rgba(0,0,0,0.2);
+}
+.line21{
+	width: 50%;
+	margin-top: 4px;
+	height: 3px;
+	background-color: rgba(0,0,0,0.2);
+}
+.rt1{
+	width: 55%;
+}
+.zx1{
+	width: 100%;
+}
+.t425{
+	width: 100%;
+	margin-left: -30px;
+}
+.yt425{
+	width: 100%
+}
+.f21{
+	width: 50%;
+}
+.name_be1{
+	margin-left: 140px;
+	font-family: Arial;
+}
+.name_be21{
+	font-family: Arial;
+}
+.act_text1{
+	margin-left: 7%;
+	margin-top: 0;
+	width: 86%;
+	display: flex;
+	justify-content: space-between;
+}
+.vc1{
+	margin-left: 35px;
+}
+.bd1{
+	margin-top: 140px;
+}
+.has1{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+.has1 select{
+	font-size: 20px;
+	width: 180px;
+}
+
+.food_div1{
+	width: 100%;
+	text-align: center;
+}
+.food_div1 select{
+	width: 170px;
+	font-size: 20px;
+}
+.food_div1 span{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.food1{
+	padding-left: 10px;
+	width: 150px;
+}
+.continue1{
+	cursor: pointer;
+	margin-left: 670px;
+	margin-top: 30px;
+	width: 110px;
+	height: 50px;
+	background-color: #f2674b;
+	border: solid 1px #f5502f;
+	border-radius: 5px;
+	color:white;
+	font-family: Arial;
+	font-weight: 900;
+}
+.continue1:hover{
+	background-color: #f5502f;
+	border: solid 1px #f5502f;
+}
+.yt{
+	margin-left: 50px;
+}
+.iss{
+	text-align: center;
+	margin-top: 20px;
+}
+.iss1{
+	text-align: center;
+	margin-top: 20px;
+}
+.iss2{
+	text-align: center;
+	margin-top: 20px;
+}
+.Anxiety {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin-right: 0;
+  margin-left: -50px;
+}
+.rtt span{
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+.Anxiety+label {
+	margin-top: 20px;
+	display: inline-flex;
+	align-items: center;   
+	user-select: none;
+	content: 'Anxiety';
+	cursor: pointer;
+	width: 120px;
+	font-family: Arial;
+	height: 40px;
+	border: 1px solid #969799;
+	border-radius: 20px;             
+}
+.Anxiety2+label {
+	width: 140px;           
+}
+#Environmentalallergies+label {
+	display: inline-flex;
+	align-items: center;
+	border-radius: 20px;   
+	user-select: none;
+	content: 'Anxiety';
+	cursor: pointer;
+	width: 200px;
+	font-family: Arial;
+	height: 40px;
+	border: 1px solid #969799;
+	border-radius: 20px;             
+}
+
+.Anxiety+label:hover{
+	border-color: #f59078;
+    background-color: #f59078;
+    color: white;
+}
+.Anxiety:checked+label{
+	border-color: #f59078;
+    background-color: #f59078;
+    color: white;
+}
+.zag1{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.zag1 h1{
+	display: inline;
+	font-family: Arial;
+	color: #153a33;
+    font-size: 40px;
+}
+.zag1 span{
+	font-family: Arial;
+}
+
+.rec_cont{
+	width: 100%;
+	background-color: #EDEFF2;
+	height: 500px;
+	padding-top: 100px;
+	display: block;
+}
+.rec_cont2{
+	width: 100%;
+	background-color: #EDEFF2;
+	height: 1700px;
+	display: none;
+	padding-top: 100px;
+}
+.cart img{
+	width: 150px;
+	margin-top: -40px;
+	text-align: center;
+}
+.vkus{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.vkus2{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+.cart{
+	width: 260px;
+	height: 350px;
+	background-color: white;
+	border-radius: 10%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.text_vk{
+	color: #717377;
+	text-align: center;
+	display: block;
+	height: 60px;
+	margin-bottom: 0;
+}
+.dogname{
+	height: 22px;
+}
+#text_vk{
+	color: #717377;
+	height: 60px;
+	font-size: 15px;
+}
+.gry{
+	color: #969799;
+	display: none;
+	margin-top: 12px;
+}
+
+.not_act_cart{
+	display: block;
+}
+.add{
+	display: flex;
+}
+.cart h2{
+	text-align: center;
+	margin-bottom: 5px;
+	font-family: Arial;
+}
+.details{
+	display: block;
+	text-align: left;
+	font-size: 17px;
+	color:#f2674b;
+}
+button:active, button:focus {
+  outline: none;
+}
+.cart button{
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+}
+.line_vkus{
+	margin-top: 10px;
+	width: 100%;
+	height: 1px;
+	background-color: #edeff2;
+}
+.vkus_ch{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 8px; 
+	margin-left: 30px;
+}
+.cart1{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.TRK,.BEEF, .CHICK, .PORK{
+	width: 100%;
+	height: 900px;
+	background-color: rgba(1,1,1,0.7);
+	position: fixed;
+	top: -90px;
+	padding-top: 100px;
+	overflow: auto;
+}
+.activeZ{
+	display: fixed;
+	top: -90px;
+	z-index: 99999;
+}
+.NoactiveZ{
+	display: none;
+}
+.turkey{
+	border-radius: 5%;
+	width: 40%;
+	background-color: white;
+	margin: 0 auto;
+	height: 700px;
+	overflow: auto;
+}
+.zag_tur{
+	padding: 30px 40px;
+}
+.nutr h2, .ing h2, .aa h2, .cal{
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.nutr{
+	margin-top: -20px;
+}
+.turkey span{
+	display: block;
+	padding: 10px 40px;
+	margin-bottom: 30px;
+}
+.zag_tur h1, .turkey h2{
+	font-family: Arial;
+	display: inline;
+}
+.prot{
+	width: 70%;
+	margin: 0 40px;
+	display: flex;
+	font-family: Arial;
+	font-size: 20px;
+	justify-content: space-between;
+	margin-top: 5px;
+}
+.prot1{
+	margin-top: 20px;
+}
+.prot:hover{
+	background-color: #edeff2;
+}
+.kg span{
+	display: inline;
+	padding: 0;
+	margin-left:0;
+}
+.portions span{
+	display: inline;
+	padding: 0;
+	margin:0;
+	font-weight: 100;
+	font-size: 20px;
+}
+.aa{
+	margin-top: 30px;
+}
+.kg{
+	margin-top: 10px;
+}
+.kg, .portions{
+	margin-left:40px;
+}
+.noact{
+	display: none;
+}
+.act{
+	display: block;
+}
+.active_act{
+	background-color: rgb(242, 103, 75);;
+}
+@media(max-width: 1025px) and (min-width: 770px ){
+	.continue1{
+		margin-left: 455px;
+	}
+	.name_be1{
+	margin-left: 100px;
+	}
+	.radio_breed1{
+		margin-left: 80px;
+	}
+	.cart{
+		width: 240px;
+	}
+
+}
+@media(max-width: 769px) and (min-width: 427px ){
+	.continue1{
+		margin-left: 330px;
+	}
+	.f2{
+		width: 60%;
+	}
+	.krug2{
+	border: 2px solid black; 
+	}
+	.footer{
+		display: block;
+		margin-top: 0px;
+	}
+	.inf{
+	margin: 1% auto;
+	width: 47%;
+	display: flex;
+	justify-content: space-around;
+	}
+
+	footer{
+		margin-top: 0px;
+		display: none;
+	}
+	.header_tablet{
+	display: block;
+	}
+    header{
+	display: none;
+	}
+	.dogs_name_name{
+		width: 100%;
+	}
+	.name_dog_header{
+		position: relative;
+		margin-top: 1px;
+		z-index: -1;
+	}
+	.content{
+		margin-top: 20px;
+	}
+	.selectw{
+		width: 100%;
+		text-align: center;
+	}
+	.we{
+		text-align: center;
+	}
+	.body_zag{
+	margin-top: 70px;
+
+	}
+	.radio_breed img{
+	margin-right: 3%;
+	width: 20%;
+	}
+	.radio_breed1 {
+	width: 100%;
+	margin-top: 40px;
+	margin-left: 0px;
+	display: none;
+	}
+	.dogsNN{
+		width: 100%;
+		margin-left: 40px;
+	}
+	.radio_breed425 {
+		width: 70%;
+		margin-top: 40px;
+		margin-left: 130px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.radio_breed425 img{
+		margin-right: 50px;
+		width:40%;
+	}
+	.has{
+		margin-left: 100px;
+		width: 73%;
+	}
+	.food_div{
+	width: 110%;
+	margin-left: -40px;
+	}
+	.name_be1{
+		margin-left: 60px;
+	}
+	.rec_cont{
+		display: none;
+	}
+	.rec_cont2{
+		height: 1000px;
+display: block;
+	}
+}
+
+@media(max-width: 426px) and (min-width: 377px ){
+	.continue1{
+		margin-left: 150px;
+	}
+	.f22{
+	margin-left: 160px;
+	margin-top: 0;
+}
+	.email_text{
+		margin-left: -1px;
+	}
+	.email{
+		margin-left: -2px;
+	}
+	.radio_breed1{
+		display: none;
+	}
+	.radio_breed425 {
+		width: 70%;
+		margin-top: 40px;
+		margin-left: 75px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.radio_breed425 img{
+		margin-right: 50px;
+		width:60%;
+	}
+	.f2{
+		width: 40%;
+	}
+	.name_be21{
+		font-size: 12px;
+		margin-left: -5px;
+	}
+	.yt{
+		margin-left: 10px;
+	}
+	.t425{
+		margin-left: -7px;
+	}
+	.line1{
+		width: 70%;
+	}
+	.footer{
+		margin-top: 0;
+		display: block;
+	}
+	.rec_cont{
+		display: none;
+	}
+	.rec_cont2{
+		height: 1800px;
+display: block;
+	}
+	.vkus2{
+		justify-content: center;
+		align-content: space-between;
+		align-items: center;
+		flex-direction: column;
+	}
+	.food1{
+		margin-top: 5px;
+	}
+	.prot{
+		width: 80%;
+		margin: 0 10px ;
+	}
+	.nutr h2, .ing h2, .aa h2, .cal{
+		margin-left: 0;
+	}
+	.turkey span, .prot{
+	font-size: 15px
+	}
+	.aa, .nutr, .cal, .ing{
+		text-align: center;
+	}
+	.turkey h1, .turkey h2{
+		width: 100%;
+		display: inline;
+		font-size: 20px;
+	}
+	.zag_tur{
+		text-align: center;
+		padding: 30px 0;
+	}
+	.kg, .portions{
+		text-align: left;
+		margin-left: 10px;
+	}
+	.turkey{
+		width: 90%;
+	}
+	.cal{
+		display: block;
+		margin: 0 110px;
+	}
+}
+
+@media(max-width: 376px) and (min-width: 322px ){
+	.continue1{
+		margin-left: 125px;
+	}
+	.f22{
+	margin-left: 135px;
+	margin-top: 0;
+}
+	.email_text{
+		margin-left: -1px;
+	}
+	.email{
+		margin-left: -2px;
+	}
+	.radio_breed1{
+		display: none;
+	}
+	.radio_breed425 {
+		width: 70%;
+		margin-top: 40px;
+		margin-left: 65px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.radio_breed425 img{
+		margin-right: 50px;
+		width:60%;
+	}
+	.food1{
+		margin-top: 5px;
+	}
+	.f2{
+		width: 40%;
+	}
+	.name_be21{
+		font-size: 12px;
+		margin-left: -5px;
+	}
+	.yt{
+		margin-left: 10px;
+	}
+	.t425{
+		margin-left: -7px;
+	}
+	.line1{
+		width: 70%;
+	}
+	.footer{
+		display: block;
+		margin-top: 0;
+	}
+	.rec_cont{
+		display: none;
+	}
+	.rec_cont2{
+		height: 1800px;
+display: block;
+	}
+	.vkus2{
+		justify-content: center;
+		align-content: space-between;
+		align-items: center;
+		flex-direction: column;
+	}
+	.food1{
+		margin-top: 5px;
+	}
+	.prot{
+		width: 80%;
+		margin: 0 10px ;
+	}
+	.nutr h2, .ing h2, .aa h2, .cal{
+		margin-left: 0;
+	}
+	.turkey span, .prot{
+	font-size: 15px
+	}
+	.aa, .nutr, .cal, .ing{
+		text-align: center;
+	}
+	.turkey h1, .turkey h2{
+		width: 100%;
+		display: inline;
+		font-size: 20px;
+	}
+	.zag_tur{
+		text-align: center;
+		padding: 0 0;
+	}
+	.kg,.portions{
+		text-align: left;
+		margin-left: 10px;;
+	}
+	.turkey{
+		width: 90%;
+	}
+	.cal{
+		display: block;
+		margin: 0 90px;
+	}
+}
+@media(max-width: 321px){
+	.continue1{
+		margin-left: 100px;
+	}
+	.f22{
+	margin-left: 110px;
+	margin-top: 0;
+}
+	.date1{
+		margin-top: 3px;
+	}
+	.email_text{
+		margin-left: -1px;
+	}
+	.email{
+		margin-left: -2px;
+	}
+	.radio_breed1{
+		display: none;
+	}
+	.radio_breed425 {
+		width: 70%;
+		margin-top: 40px;
+		margin-left: 50px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.radio_breed425 img{
+		margin-right: 50px;
+		width:60%;
+	}
+	.food1{
+		margin-top: 5px;
+	}
+	.f2{
+		width: 40%;
+	}
+	.name_be21{
+		font-size: 12px;
+		margin-left: -5px;
+	}
+	.yt{
+		margin-left: 10px;
+	}
+	.t425{
+		margin-left: -7px;
+	}
+	.line1{
+		width: 70%;
+	}
+	.footer{
+		display: block;
+		margin-top: 0;
+	}
+	.rec_cont{
+		display: none;
+	}
+	.rec_cont2{
+		height: 1800px;
+display: block;
+	}
+	.vkus2{
+		justify-content: center;
+		align-content: space-between;
+		align-items: center;
+		flex-direction: column;
+	}
+	.food1{
+		margin-top: 5px;
+	}
+	.prot{
+		width: 80%;
+		margin: 0 10px ;
+	}
+	.nutr h2, .ing h2, .aa h2, .cal{
+		margin-left: 0;
+	}
+	.turkey span, .prot{
+	font-size: 15px
+	}
+	.aa, .nutr, .cal, .ing{
+		text-align: center;
+	}
+	.turkey h1, .turkey h2{
+		width: 100%;
+		display: inline;
+		font-size: 20px;
+	}
+	.zag_tur{
+		text-align: center;
+		padding: 0 0;
+	}
+	.cal{
+		display: block;
+		margin: 0 60px;
+	}
+	.kg, .portions {
+		text-align: left;
+		margin-left: 20px;;
+	}
+	.turkey{
+		width: 90%;
+	}
+}
