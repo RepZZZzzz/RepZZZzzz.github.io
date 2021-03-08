@@ -12,6 +12,7 @@ function colorch() {
 	  		fruit.style.color = "white";
 	coll = false;
 	} 
+	document.getElementsByClassName("logo")[0].style.background = "#87ad7d";
 	for (let fruit of document.getElementsByClassName("h")) {
 	  		fruit.style.color = "white";
 	  	}
@@ -76,6 +77,7 @@ function colorch() {
 	for (let fruit of document.getElementsByClassName("fon")) {
 	  		fruit.style.background = "#6e3517";
 	  	}
+	document.getElementsByClassName("logo")[0].style.background = "#F8BD97";
 }
 }
 
@@ -119,6 +121,8 @@ function colorch1() {
 	for (let fruit of document.getElementsByClassName("fon")) {
 	  		fruit.style.background = "#2c2c3c";
 	  	}
+	document.getElementsByClassName("logo")[0].style.background = "#87ad7d";
+
 	}else{
 		document.body.style.background = "#9E5428";
 		document.getElementById("pr2").src="img/prof.png";
@@ -156,6 +160,7 @@ function colorch1() {
 	for (let fruit of document.getElementsByClassName("fon")) {
 	  		fruit.style.background = "#6e3517";
 	  	}
+	document.getElementsByClassName("logo")[0].style.background = "#F8BD97";
 }
 }
 
