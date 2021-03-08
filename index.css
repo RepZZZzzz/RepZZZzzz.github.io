@@ -265,6 +265,7 @@ header{
 	width: 70%;
 	height: 260px;
 	margin: 20px 0;
+	border-radius: 10px;
 }
 .read button{
 	border: none;
