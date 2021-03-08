@@ -21,8 +21,10 @@ header{
 	background-color: #6e3517; border-radius: 40px; border:solid 3px black; width: 90%; height: 110%; padding-bottom: 20px;margin: 0 auto;
 }
 .logo{
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 130px;
+	background-color: #F8BD97;
+	border-radius: 20px;
 }
 .logo img{
 	width: 130px;
@@ -186,6 +188,7 @@ header{
 	width: 170px;
 	height: 200px;
 	margin-top: 50px;
+	border-radius: 20px;
 }
 .a_sl2{
 	height: 130px;
@@ -194,6 +197,7 @@ header{
 	width: 170px;
 	height: 200px;
 	margin-top: 50px;
+	border-radius: 20px;
 }
 .strelka{
 	width: 40px;
@@ -204,6 +208,8 @@ header{
 	width: 170px;
 	height: 50px;
 	background-color: #F8BD97;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 	opacity: 0.9;
 	position: relative;
 	bottom: 58px;
@@ -216,6 +222,8 @@ header{
 	background-color: #F8BD97;
 	opacity: 0.9;
 	position: relative;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 	bottom: 58px;
 	text-align: center;
 	padding-top: 5px;
