@@ -242,6 +242,14 @@ header{
 		width: 130px;
 		font-size: 15px;
 	}
+	.slider_book2{
+		width: 130px;
+		height: 160px;
+	}
+	.slid_nazv2{
+		width: 130px;
+		font-size: 15px;
+	}
 }
 @media(max-width: 769px) and (min-width: 427px){
 	.searchbar{
@@ -255,7 +263,14 @@ header{
 		width: 130px;
 		font-size: 15px;
 	}
-
+	.slider_book2{
+		width: 130px;
+		height: 160px;
+	}
+	.slid_nazv2{
+		width: 130px;
+		font-size: 15px;
+	}
 }
 @media(max-width: 426px){
 	header{
@@ -280,6 +295,14 @@ header{
 		height: 150px;
 	}
 	.slid_nazv{
+		width: 120px;
+		font-size: 15px;
+	}
+	.slider_book2{
+		width: 120px;
+		height: 150px;
+	}
+	.slid_nazv2{
 		width: 120px;
 		font-size: 15px;
 	}
@@ -322,6 +345,14 @@ header{
 		height: 140px;
 	}
 	.slid_nazv{
+		width: 110px;
+		font-size: 14px;
+	}
+	.slider_book2{
+		width: 110px;
+		height: 140px;
+	}
+	.slid_nazv2{
 		width: 110px;
 		font-size: 14px;
 	}
