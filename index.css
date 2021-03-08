@@ -308,13 +308,9 @@ header{
 	}
 	.htrkfvf h1{
 	color: #F8BD97;
-	margin:0 auto;
-	width: 150px;
+		text-align:center;
 	}
-	#pr{
-		widht:200px;
-		margin:0 auto;
-	}
+	
 	.htrkfvf{
 		margin-top: 70px;
 		margin-bottom: 20px;
